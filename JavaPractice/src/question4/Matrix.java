@@ -11,7 +11,7 @@ import java.util.Arrays;
         }
 
         public void add(Operations other) {
-            question4.Matrix m = (question4.Matrix) other;
+            question4.Matrix m = (Matrix) other;
             for (int i = 0; i < matrix.length; i++) {
                 for (int j = 0; j < matrix[0].length; j++) {
                     matrix[i][j] += m.matrix[i][j];
