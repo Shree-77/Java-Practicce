@@ -71,3 +71,12 @@ unbiased. (Chi-square value at 5% level of significance for ten degrees of freed
    the left operand, and the imaginary part of the right operand is subtracted from the imaginary part of
    the left operand.
    c) Print Complex numbers in the form (realPart, imaginaryPart)
+
+9. Implement a class Car in a package with the following properties. A car has a certain fuel efficiency (measured in liters/km)
+   and a certain amount of fuel in the gas tank. The efficiency is specified in the constructor, and the initial fuel level is 0
+   . Supply the get and the set method for instance variable. Override toString method of the Object class.
+   Supply a method drive that simulates driving a car for a certain distance, reducing the amount of gasoline in the fuel tank.
+    Also supply methods getGasInTank, returning the current amount of gasoline in the fuel tank, and addGas, to add gasoline
+    to the fuel tank. Assume that the drive method is never called with a distance that consumes more than the available gas.
+    Supply a CarTester class in another package that tests all methods of a Car object. The Car efficiency data and the amount
+    of gas added to a car should be entered as user input.
