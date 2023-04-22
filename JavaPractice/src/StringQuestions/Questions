@@ -1,0 +1,7 @@
+1. Write an application that inputs a line of text and tokenizes the line using space character as delimiter
+   and outputs the tokens in reverse order.
+
+2.Write an application that inputs a telephone number as a string in the form (555) 555-5555. The application should extract
+  the area code (the first three digits of the phone number) as a token, and the last four digits of the phone number as a token.
+  The seven digits (the first three digits and the last four digits) of the phone number should be concatenated into one string and
+  be printed.
