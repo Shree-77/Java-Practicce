@@ -1,0 +1,84 @@
+1. Develop an abstract class named Worker with private data members name and address along with
+the getter and setter methods for the fields, a two-argument constructor and an abstract method called
+earnings() to compute the income of a worker. Design another class named PieceWorker that should
+contain private instance variables wage (to store the worker’s wage per piece) and pieces (to store the
+number of pieces produced). Provide a concrete implementation of the method earnings in the class
+PieceWorker that calculates the worker’s earnings by multiplying the number of pieces produced by the
+wage per piece. Develop a class containing the main method to show the invocation of the earnings( )
+method on a PieceWorker object.
+
+2. Develop a class named Triangle that implements an interface called GeometricObject. The interface
+GeometricObject has the abstract methods getArea() that computes and returns the area of a geometric
+object and getPerimeter() that computes and returns the perimeter of a geometric object. The Triangle
+class should have private double data fields named side1, side2, and side3 denoting the length of the
+three sides of a triangle, a constructor that creates a triangle with the specified value for side1, side2
+and side3, the getter and setter methods for all three data fields and an implementation of the getArea()
+and getPerimeter() method. Develop a driver class to show the invocation of the getArea() and
+getPerimeter() method on a Triangle object.
+
+3. Develop an interface with two methods namely, withdraw money and deposit money. Develop a class
+Account that implements the interface with necessary private data members such as current account
+balance and account number. Develop another class CreditCardAccount that implements the interface
+with necessary data members such as current credit limit and the credit card number. When money is
+withdrawn from a credit card account; the credit limit is diminished by the amount of money withdrawn
+and by an additional 0.5% of the amount of money withdrawn and when the money is deposited; the
+credit limit is increased by the amount of money deposited. Develop a class containing the main method
+and create an account object and a credit card account object and demonstrate the withdrawal and
+deposit method on the objects.
+
+4. Develop an interface with two methods namely, add and multiply for addition and multiplication of
+mathematical objects such as vectors and matrices. Develop a class Vector that implements the
+interface with necessary data members. Develop another class Matrix that implements the interface
+with necessary data members. Develop a class containing the main method and show the computation
+of the sum of two vectors and their scalar product and the sum of two matrices and the product of the
+matrices.
+
+5. Develop an interface with two methods for computing area and perimeter of a 2D shape. Develop a
+class Circle that implements this interface with necessary data members. Develop another class
+Rectangle that implements the interface with necessary data members. Develop a class containing the
+main method and show the area and perimeter of a circle object with specified radius and center and
+the area and perimeter of a rectangle object with specified dimensions.
+
+6. Develop and test an object-oriented application to simulate the rolling of two dice. The application
+should use an object of Random class once to roll the first die and again to roll the second die. The sum
+of the two values should then be calculated. Each die can show an integer value from 1 to 6, so the sum
+of the values will vary from 2 to 12, with 7 being the most frequent sum, and 2 and 12 the least frequent
+(verify using code). Your application should roll the dice 1296 times. Use a one-dimensional array to tally
+the number of times each possible sum appears. Display the results in a tabular format showing the sum
+in one column and the number of times each possible sum occurs in a trial of 1296 times in another
+column and compute the Chi-square value defined by ∑ ((O-E)^2)/E, where O and E are respectively observed
+and expected number of occurrences of the events (2 to 12) and conclude whether the dice are
+unbiased. (Chi-square value at 5% level of significance for ten degrees of freedom is 18.307)
+
+7. Develop and test a Java class named Student with the (private) instance fields namely, registration
+   number, name, the date of birth and a list of a maximum of three courses a student has registered in. If
+   a student has registered in less than three courses then use null. Provide constructors for the class
+   showing how one constructor can call some other constructor and include accessor and mutator
+   methods for each of the instance fields. Include a method into the class to compute the age of a
+   student. Create an array of objects of three students after receiving input from the keyboard using
+   object of BufferedReader class and display for each student her/his registration number, name and age
+   in a tabular format with column header
+
+8. Create a class called Complex for performing arithmetic with complex numbers. Complex numbers
+   have the form realPart + imaginaryPart * i; where i is the imaginary unit.
+   Write a program to test your class. Use floating-point variables to represent the private data of the class.
+   Provide a constructor that enables an object of this class to be initialized when it’s declared. Provide a
+   no-argument constructor with default values in case no initializers are provided. Provide public methods
+   that perform the following operations:
+   a) Add two Complex numbers: The real parts are added together and the imaginary parts are added
+   together.
+   b) Subtract two Complex numbers: The real part of the right operand is subtracted from the real part of
+   the left operand, and the imaginary part of the right operand is subtracted from the imaginary part of
+   the left operand.
+   c) Print Complex numbers in the form (realPart, imaginaryPart)
+
+9. Implement a class Car in a package with the following properties. A car has a certain fuel efficiency (measured in liters/km)
+   and a certain amount of fuel in the gas tank. The efficiency is specified in the constructor, and the initial fuel level is 0
+   . Supply the get and the set method for instance variable. Override toString method of the Object class.
+   Supply a method drive that simulates driving a car for a certain distance, reducing the amount of gasoline in the fuel tank.
+    Also supply methods getGasInTank, returning the current amount of gasoline in the fuel tank, and addGas, to add gasoline
+    to the fuel tank. Assume that the drive method is never called with a distance that consumes more than the available gas.
+    Supply a CarTester class in another package that tests all methods of a Car object. The Car efficiency data and the amount
+    of gas added to a car should be entered as user input.
+
+10.
