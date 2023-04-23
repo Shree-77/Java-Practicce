@@ -9,7 +9,7 @@ import java.util.Scanner;
  * in upper case letters. Show the usage of these exceptions in try-catch-finally block and in throws clause.
  */
 public class Student {
-    public static void main(String[] args) throws  Exception{
+    public static void main(String[] args) throws  CreditsOutofRangeException , NameCaseException{
         Scanner in = new Scanner(System.in);
         String Reg_no;
         String name;
