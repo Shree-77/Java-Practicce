@@ -1,0 +1,4 @@
+1. Write a program that asks the user to input a set of floating-point values. When the user enters a value that is not a number,
+  give the user two more chances to enter the value.After three chances, quit reading input. Add all correctly specified values
+  and print the sum when the user is done entering data. Use exception handling to detect improper inputs.
+

@@ -32,3 +32,23 @@
    contain the nouns "boy", "girl", "dog", "town" and "car"; the verb array should contain the verbs
    "drove", "jumped", "ran", "walked" and "skipped"; the preposition array should contain the prepositions
    "to", "from", "over", "under" and "on".
+
+6. Write an application that encodes English-language phrases into pig Latin. Pig Latin is a form of coded
+   language. There are many different ways to form pig Latin phrases. For simplicity, use the following
+   algorithm:
+   To form a pig Latin phrase from an English-language phrase, tokenize the phrase into words with String
+   method split. To translate each English word into a pig Latin word, place the first letter of the English
+   word at the end of the word and add the letters “ay.” Thus, the word “jump” becomes “umpjay,” the
+   word “the” becomes “hetay,” and the word “computer” becomes “omputercay.”
+   Blanks between words remain as blanks. Assume the following: The English phrase consists of words
+   separated by blanks, there are no punctuation marks and all words have two or more letters.
+   Method printLatinWord should display each word. Each token is passed to method printLatinWord to
+   print the pig Latin word. Enable the user to input the sentence. Keep a running display of all the
+   converted sentences in a text area.
+
+7. Write an application that inputs a telephone number as a string in the form (555) 555-5555. The
+   application should String method split to extract the area code as a token, the first three digits of the
+   phone number as a token and the last four digits of the phone number as a token. The seven digits of
+   the phone number should be concatenated into one string. Both the area code and the phone number
+   should be printed. Remember that you’ll have to change delimiter characters during the tokenization
+   process
