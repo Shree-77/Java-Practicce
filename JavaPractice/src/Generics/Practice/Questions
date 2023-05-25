@@ -1,0 +1,36 @@
+Generics – Programming problems
+
+1. Write and test a generic Sort program based on selection sort or any sorting of your choice.
+Write a test program that inputs, sorts and outputs an Integer array and a Float array.
+[Hint: Use <T extends Comparable<T>> in the type-parameter section for method the sorting program,
+so that you can use method compareTo to compare the objects of the type that T represents.]
+
+2. Develop and test a generic method printArray that takes three parameters namely, a generic array
+type and two integer arguments, lowSubscript and highSubscript. A call to this method prints only the
+designated portion of the array. Validate lowSubscript and highSubscript. If either is out of range,
+the printArray method should throw an InvalidSubscriptException; otherwise, printArray should return the
+number of elements printed. Write a main to the printArray method on arrays of Integer type, Double type
+and Character type.
+
+3. Write a simple generic version of method isEqualTo that compares its two arguments with the equals
+method and returns true if they’re equal and false otherwise. Use this generic method in a program that calls
+isEqualTo with a variety of built-in types, such as Object or Integer.
+
+4. Write a generic class Pair which has two type parameters—F and S— each representing the type of the first
+and second element of the pair, respectively. Add get and set methods for the first and second elements of the pair.
+ [Hint: The class header should be public class Pair<F, S>.]
+
+5. Develop a generic class Furniture with generic type Material. The class should have a generic method that
+ receives the Material type as input and generates the price of the furniture.
+
+6. Write a generic method to count the number of elements in a collection that have a specific property
+(for example, odd integers, prime numbers, palindromes).
+
+7. Will the following class compile? If not, why?
+public final class Algorithm {
+    public static <T> T max(T x, T y) {
+        return x > y ? x : y;
+    }
+}
+
+8. Write a generic method to exchange the positions of two different elements in an array.
