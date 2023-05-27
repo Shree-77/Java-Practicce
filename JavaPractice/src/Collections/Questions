@@ -1,0 +1,10 @@
+1. Develop and test a program that concatenates two linked list objects of characters. The class ListConcatenate should include a static method concatenate that takes references to both list objects as arguments and concatenates the second list to the first list.
+
+2. Develop and test a program that inserts 25 random integers from 0 to 100 in order into a linked-list object. For this exercise, you’ll need to modify the List<T> class to maintain an ordered list. Name the new version of the class SortedList.
+Modify the SortedList class to include a merge method that can merge the SortedList it receives as an argument with the SortedList that calls the method. Write an application to test method merge.
+
+3. Write a static method reverseCopy that receives a List<T> as an argument and returns a copy of that List<T> with its elements reversed. Test this method in an application.
+
+4. Develop and test a class with TreeSet of objects of type Transaction for modeling a transaction involving transfer of money from one account number to another. A Transaction object is characterized by its transaction id, amount in rupees, source account number and destination account number. Populate the tree set with three such objects. Show how to iterate through the elements of the tree set. Display the transaction id with the maximum transaction amount and display transaction ids with amount less than five thousand rupees.
+
+5. Develop and test a class with LinkedList of objects of type Gym characterized by the instance variables namely, its name, distance (in Km) from your place, landmark and contact phone number. Populate the linked list with three such objects. Show how to iterate through the elements of the linked list. Display the elements of the linked list in ascending order of distance. Display name of the gyms and their landmark that are within two kilometres from your place.
