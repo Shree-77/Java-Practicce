@@ -1,7 +1,5 @@
 package Generics.Practice.question3;
 
-import Generics.Practice.question1.SortTest;
-
 /**
  * Write a simple generic version of method isEqualTo that compares its two
  * arguments with the equals
