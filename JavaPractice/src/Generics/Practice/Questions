@@ -34,3 +34,12 @@ public final class Algorithm {
 }
 
 8. Write a generic method to exchange the positions of two different elements in an array.
+
+9. Develop a generic class of your (innovative) choice with two generic parameters; provide the
+constructor and the necessary setter and getter methods for the class. Create an object of the class
+with a user-defined type of your choice. 
+
+10. Develop and test a class with an ArrayList of objects of type of your (innovative) choice (but not of
+in-built type) characterized by three relevant instance variables of your choice. Populate the array list
+with three such objects. Show how to iterate through the elements of the array list. Display the
+elements of the array list in increasing order of any one attribute.

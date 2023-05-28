@@ -22,3 +22,4 @@ Modify the SortedList class to include a merge method that can merge the SortedL
 
 
 10. You are tasked with developing and testing a program that takes a file of customer orders and outputs the total revenue by product. Implement the program that reads the file, creates a Map<Product, Integer> to store each product's revenue, and updates the revenue as the orders are processed. You will also need to implement sorting and output formatting to display the results in a readable format.
+
