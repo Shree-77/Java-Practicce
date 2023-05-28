@@ -17,6 +17,7 @@ public class reverseCopy {
             reversedList.add(list.get(i));
         }
         return reversedList;
+
     }
 
     public static void main(String[] args) {
@@ -28,9 +29,7 @@ public class reverseCopy {
         list.add(4);
         list.add(5);
         list.add(6);
-
-        reverseCopy ReverseCopy = new reverseCopy();
-        System.out.println(ReverseCopy.reverse(list));
+        System.out.println(reverseCopy.reverse(list));
     }
 
 }
