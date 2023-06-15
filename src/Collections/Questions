@@ -1,0 +1,25 @@
+1. Develop and test a program that concatenates two linked list objects of characters. The class ListConcatenate should include a static method concatenate that takes references to both list objects as arguments and concatenates the second list to the first list.
+
+2. Develop and test a program that inserts 25 random integers from 0 to 100 in order into a linked-list object. For this exercise, you’ll need to modify the List<T> class to maintain an ordered list. Name the new version of the class SortedList.
+Modify the SortedList class to include a merge method that can merge the SortedList it receives as an argument with the SortedList that calls the method. Write an application to test method merge.
+
+3. Write a static method reverseCopy that receives a List<T> as an argument and returns a copy of that List<T> with its elements reversed. Test this method in an application.
+
+4. Develop and test a class with TreeSet of objects of type Transaction for modeling a transaction involving transfer of money from one account number to another. A Transaction object is characterized by its transaction id, amount in rupees, source account number and destination account number. Populate the tree set with three such objects. Show how to iterate through the elements of the tree set. Display the transaction id with the maximum transaction amount and display transaction ids with amount less than five thousand rupees.
+
+5. Develop and test a class with LinkedList of objects of type Gym characterized by the instance variables namely, its name, distance (in Km) from your place, landmark and contact phone number. Populate the linked list with three such objects. Show how to iterate through the elements of the linked list. Display the elements of the linked list in ascending order of distance. Display name of the gyms and their landmark that are within two kilometres from your place.
+
+6. You are considering creating a library management system, where librarians can keep track of the books they have, the patrons borrowing the books, and the borrow/return dates. Develop and test a Java program that uses HashMap, with Book as the key and Patron as the value, and implements methods where a librarian can add, remove, and update books and patrons to the system.
+
+
+7. You are implementing a network message system, which needs a priority queue for sending messages based on priority levels. Develop and test a Java program that implements PriorityQueue to store messages and sorts them based on priority, and a method that sends messages in the order of priority. 
+
+
+8. You are developing an e-commerce website that allows users to browse through products and add them to a cart before making a purchase. Develop and test a Java program that uses ArrayList to store the products and LinkedList to store the user's cart incrementally. Implement methods that add products to the list of available products and add them to the cart when the user requests it.
+
+
+9. You need develop and test a Java program for a phone book application, where users can store their contacts using different fields, such as name, phone number, and email address. Implement a HashMap to store the contacts, with name as the key and a Contact object as the value, which comprises the contact information. Implement methods for adding, removing, and searching contacts.
+
+
+10. You are tasked with developing and testing a program that takes a file of customer orders and outputs the total revenue by product. Implement the program that reads the file, creates a Map<Product, Integer> to store each product's revenue, and updates the revenue as the orders are processed. You will also need to implement sorting and output formatting to display the results in a readable format.
+
