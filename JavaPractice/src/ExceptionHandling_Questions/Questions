@@ -1,0 +1,15 @@
+1. Write a program that asks the user to input a set of floating-point values. When the user enters a value that is not a number,
+  give the user two more chances to enter the value.After three chances, quit reading input. Add all correctly specified values
+  and print the sum when the user is done entering data. Use exception handling to detect improper inputs.
+
+2. Develop a class called Student containing registration number, name and total credits registered by a student.Read students’ information through
+   keyboard. Develop a user-defined exception called CreditsOutOfRange to throw exception whenever the total number of credits registered by a student
+    is either less than 16 or greater than 24 and an exception called NameCaseException should also be thrown if the name of a student is not entered
+    in upper case letters. Show the usage of these exceptions in try-catch-finally block and in throws clause.
+
+3. Develop a class called Course containing course code, course name and number of credits assigned for the course.
+   Read courses’ information through keyboard. Develop a user-defined exception called InvalidCreditAssigned to throw exception whenever the
+   number of credit assigned to a course is less than three and an exception called InValidCourseCode should also be thrown if the course code does
+   not start with AEC. Show the usage of these exceptions in try-catch-finally block and in throws clause.
+
+4.

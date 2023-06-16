@@ -1,0 +1,245 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question9.Student",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "StudentTest",
+            "request": "launch",
+            "mainClass": "Collections.question11.StudentTest",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ListConcatenate",
+            "request": "launch",
+            "mainClass": "Collections.question1.ListConcatenate",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "StudentTese",
+            "request": "launch",
+            "mainClass": "Collections.question11.StudentTese",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "SortedList",
+            "request": "launch",
+            "mainClass": "Collections.question2.SortedList",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "reverseCopy",
+            "request": "launch",
+            "mainClass": "Collections.question3.reverseCopy",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Account",
+            "request": "launch",
+            "mainClass": "Collections.question4.Account",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "GymTest",
+            "request": "launch",
+            "mainClass": "Collections.question5.GymTest",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Collections.question6.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "firstqn",
+            "request": "launch",
+            "mainClass": "ExceptionHandling_Questions.question1.firstqn",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "ExceptionHandling_Questions.question2.Student",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Course",
+            "request": "launch",
+            "mainClass": "ExceptionHandling_Questions.question3.Course",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "GenricsExample",
+            "request": "launch",
+            "mainClass": "Generics.LearnGenerics.GenricsExample",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "SortTest",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question1.SortTest",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPrint",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question2.ArrayPrint",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Compares",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question3.Compares",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question4.Pair",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Furniture",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question5.Furniture",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question6.Test",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "ExchangePositions",
+            "request": "launch",
+            "mainClass": "Generics.Practice.question8.ExchangePositions",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question1.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question3.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question4.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question5.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Dices",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question6.Dices",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question7.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question8.Main",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "CarTester",
+            "request": "launch",
+            "mainClass": "OopsQuestions.question9.CarTester",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "StringQuestions.question1.ReverseString",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Telephone",
+            "request": "launch",
+            "mainClass": "StringQuestions.question2.Telephone",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "OperationsOfStrings",
+            "request": "launch",
+            "mainClass": "StringQuestions.question3.OperationsOfStrings",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "Code3digits",
+            "request": "launch",
+            "mainClass": "StringQuestions.question4.Code3digits",
+            "projectName": "Java-Practice_38fcf6e7"
+        },
+        {
+            "type": "java",
+            "name": "RandomSentences",
+            "request": "launch",
+            "mainClass": "StringQuestions.question5.RandomSentences",
+            "projectName": "Java-Practice_38fcf6e7"
+        }
+    ]
+}
