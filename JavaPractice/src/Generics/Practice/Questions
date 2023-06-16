@@ -43,3 +43,12 @@ with a user-defined type of your choice.
 in-built type) characterized by three relevant instance variables of your choice. Populate the array list
 with three such objects. Show how to iterate through the elements of the array list. Display the
 elements of the array list in increasing order of any one attribute.
+
+11. A member of a Gym is characterized by her/his mobile number, name, age
+and the number of successful referrals made by her/him to the Gym.
+ Make an array list of member objects, display information about 
+the members using iterator, use Comparator interface to compare
+ two members based on a measure (metric) defined by the sum of the 
+ number of successful referrals and age, list the members in the 
+ collection in descending order of the value of the metric and 
+ display the name of the member with the minimum value of the metric.
