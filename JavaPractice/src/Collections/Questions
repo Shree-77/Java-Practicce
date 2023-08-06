@@ -97,3 +97,11 @@ priority levels. Develop and test a Java program that implements PriorityQueue t
     Write a Java program that checks if a given string is a palindrome or not using a Stack or a Queue.
 
     These practice problems should help you get familiar with Java Collections and improve your skills in using various data structures and algorithms. Happy coding!
+
+   16 Write a program to convert List to Array.
+
+   17. Write a program to traverse(or iterate) HashSet?
+
+   18.Write a program to iterate the HashMap
+
+   19. How To Sort HashMap In Java By Keys And Values
